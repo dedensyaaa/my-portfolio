@@ -1,0 +1,105 @@
+.smartor {
+    font-family: 'Tevyat', sans-serif; /* Apply the Teyvat font */
+    /*border: 1px solid red; /* Use thinner borders for cleaner UI */
+    height: 100vh; /* Full viewport height */
+    display: flex; /* Flexbox for alignment */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-image: url('../Media/bg.jpg');
+    background-size: cover;
+    flex-direction: column; /* Arrange children vertically */
+    width: 100%; /* Ensure full width */
+    box-sizing: border-box; /* Include padding/border in width */
+  }
+
+.smartor h1 {
+    /*border: 1px solid black;*/
+    font-size: 2rem; /* Customize the size for the heading */
+    color: #555555;
+    margin-right: 6%;
+}
+
+.smartor h2 {
+    /*border: 1px solid black;*/
+    font-size: 1.5rem; /* Customize the size for the heading */
+    color: #555555;
+    margin-right: 6%;
+}
+
+.smartor p {
+    /*border: 1px solid black;*/
+    color: #A8A4A0;
+    margin-right: 6%;
+    text-align: justify;
+}
+
+.smartor-border {
+    /*border: 1px solid blue;*/
+    height: 80%;
+    width: 77%;
+    background-image: url('../Media/border.png');
+    background-size: contain; /* Fit the image within the div */
+    background-repeat: no-repeat; /* Prevent tiling */
+    background-position: center;
+    display: flex; /* Flexbox for alignment */
+    justify-content: center; /* Center horizontally */
+}
+
+.smartor-content {
+    /*border: 1px solid purple;*/
+    padding-left: 5%;
+    padding-top: 1%;
+    margin: 2%;
+    margin-right: 4%;
+    height: 91%;
+    width: 72%;
+    overflow: auto;
+    box-sizing: border-box; /* Include padding in width and height */
+}
+
+.smartor-content::-webkit-scrollbar {
+    width: 12px;
+}
+  
+.smartor-content::-webkit-scrollbar-track {
+    background: #D5CFC3;
+    border-right: 3px solid #EBE4DC;
+    border-left: 3px solid #EBE4DC;
+    -webkit-box-shadow: inset 0 0 0px 1px #C5BFB4;
+    border-radius: 10px;
+}
+  
+.smartor-content::-webkit-scrollbar-thumb {
+    background: #F5F3F0;
+    /*border: 1px solid #878084;*/
+    border-radius: 10px;
+}
+
+.back-btn-div {
+    /*border: 1px solid black;*/
+    position: relative; 
+    top: 30px; /* 10px from the top of the screen */
+    left: 850px; /* 10px from the right of the screen */
+    z-index: 100; /* Ensure it stays above other content */
+    height: auto;
+}
+
+.back-btn {
+    width: 30px; /* Adjust the size */
+    height: 30px; /* Adjust the size */
+    cursor: pointer; /* Make the image clickable */
+}
+
+.smartor-img {
+    display: grid; /* Use CSS Grid */
+    grid-template-columns: repeat(2, auto);
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    gap: 30px; /* Adjust the gap between grid items */
+    margin-right: 6%;
+}
+
+.smartor-img img{
+    width: auto;
+    height: 500px;
+}

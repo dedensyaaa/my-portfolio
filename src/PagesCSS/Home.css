@@ -1,0 +1,58 @@
+.home {
+  font-family: 'Tevyat', sans-serif; /* Apply the Teyvat font */
+  text-align: center; /* Center align text */
+  /*border: 1px solid red; /* Use thinner borders for cleaner UI */
+  height: 100vh; /* Full viewport height */
+  display: flex; /* Flexbox for alignment */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  background-color: #E8DED2;
+}
+
+.home h1 {
+  font-size: 3rem; /* Customize the size for the heading */
+  margin-bottom: 1rem;
+}
+
+.home p {
+  font-size: 1.5rem; /* Customize the size for the paragraph */
+}
+
+.home2 {
+  /*border: 1px solid blue;*/
+  width: 80%; /* Optional: Limit width for better appearance */
+}
+
+.home-header {
+  /*border: 1px solid pink;*/
+  height: 420px; /* Set a fixed height for the image */
+  background-image: url('../Media/group1-header.png'); /* Replace with your image path */
+  background-size: contain; /* Fit the image within the div */
+  background-repeat: no-repeat; /* Prevent tiling */
+  background-position: center;
+  margin-bottom: 1%;
+}
+
+.home-buttons {
+  /*border: 1px solid purple;*/
+  display: grid; /* Use CSS Grid */
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 1rem; /* Add spacing between grid items */
+}
+
+.home-buttons button {
+  border: none; /* Remove default button border */
+  background-color: transparent; /* Transparent background */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.home-buttons img {
+  width: 100%; /* Make images responsive */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Optional: Add rounded corners */
+  transition: transform 0.3s ease; /* Add hover effect */
+}
+
+.home-buttons img:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}

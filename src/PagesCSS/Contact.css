@@ -1,0 +1,74 @@
+.contact {
+    font-family: 'Tevyat', sans-serif; /* Apply the Teyvat font */
+    /*border: 1px solid red; /* Use thinner borders for cleaner UI */
+    height: 100vh; /* Full viewport height */
+    display: flex; /* Flexbox for alignment */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-image: url('../Media/bg.jpg');
+    background-size: cover;
+    flex-direction: column; /* Arrange children vertically */
+    width: 100%; /* Ensure full width */
+    box-sizing: border-box; /* Include padding/border in width */
+  }
+
+.contact h1 {
+    font-size: 2rem; /* Customize the size for the heading */
+    color: #555555;
+}
+
+.contact p {
+    /*border: 1px solid black;*/
+    color: #A8A4A0;
+    margin-right: 6%;
+}
+
+.contact-border {
+    /*border: 1px solid blue;*/
+    height: 80%;
+    width: 77%;
+    background-image: url('../Media/border.png');
+    background-size: contain; /* Fit the image within the div */
+    background-repeat: no-repeat; /* Prevent tiling */
+    background-position: center;
+    display: flex; /* Flexbox for alignment */
+    justify-content: center; /* Center horizontally */
+}
+
+.contact-content {
+    /*border: 1px solid purple;*/
+    padding-left: 5%;
+    padding-top: 1%;
+    margin: 2%;
+    height: 91%;
+    width: 72%;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+.contact-info {
+    /*border: 1px solid black;*/
+    margin-right: 6%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: grid; /* Use CSS Grid */
+    grid-template-columns: repeat(3, auto); /* Use auto column sizes for better control */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    gap: 30px; /* Adjust the gap between grid items */
+}
+
+.contact-info img {
+    width: 50px;
+    height: auto;
+    /*border: 1px solid black;*/
+}
+
+.email-link {
+    color: #A8A4A0; /* Inherits the color from its parent element */
+    text-decoration: underline; /* Adds underline */
+}
+
+.email-link:hover {
+    text-decoration: underline; /* Ensures underline is present on hover */
+}

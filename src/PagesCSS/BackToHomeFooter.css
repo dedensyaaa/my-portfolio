@@ -1,0 +1,27 @@
+.back-to-home-footer {
+    display: flex;
+    justify-content: flex-end; /* Align the button to the right */
+    align-items: center;
+    /*background-color: #f8f9fa;  Optional: Footer background color */
+    /*border-top: 1px solid black; /* Optional: Top border for separation */
+    box-sizing: border-box; /* Ensure padding is included in width */
+    width: 99.4%; /* Make the footer span full width */
+  }
+  
+.back2home-button {
+    width: 200px; /* Set button size */
+    height: auto; /* Maintain aspect ratio */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: transform 0.3s ease; /* Add hover effect */
+}
+  
+.back2home-button:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.back2home-button button {
+    border: none; /* Remove default button border */
+    background-color: transparent; /* Transparent background */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+  
