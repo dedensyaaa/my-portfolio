@@ -14,7 +14,7 @@ const About = () => {
             <div className='about-border'>
                 <div className='about-content'>
                     <h1>About Me</h1>
-                    <p>I am currently a 4th year BS helloInformation Technology student of Cebu Institute if Technology (CIT-U). I enjoy designing user interfaces, working on software projects and continuously learning new skills.</p>
+                    <p>I am currently a 4th year BS Information Technology student of Cebu Institute if Technology (CIT-U). I enjoy designing user interfaces, working on software projects and continuously learning new skills.</p>
                     <img src={schoolLogo} alt='cit-logo'/>
                     <p>I’ve had some experience with programming languages like Java, JavaScript, Python and C. In web development, I’ve worked with React.js, HTML, and CSS. I’m also familiar with database management using MySQL and have used tools like Git, Streamlit and Figma in my projects.</p>
                     <h2>Skill Levels</h2>
