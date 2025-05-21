@@ -24,7 +24,7 @@ const About = () => {
                         <img src={pythonSkill} alt='cit-logo'/>
                         <img src={cSkill} alt='cit-logo'/>
                     </div>
-                    <p style={{marginTop: '5%'}}>You can view my resume <a href='https://drive.google.com/file/d/1p-Y2RXqkYP_3DnDhzCbFthERlX-WkLn_/view?usp=sharing' target="_blank" rel="noopener noreferrer" className='email-link'>here</a>.</p>
+                    <p style={{marginTop: '5%'}}>You can view my resume <a href='https://drive.google.com/file/d/1Te0RuHV_4DcJbTMIzPDaRFpME6XZ5SSf/view?usp=sharing' target="_blank" rel="noopener noreferrer" className='email-link'>here</a>.</p>
                 </div>
             </div>
             <BackToHomeFooter />
